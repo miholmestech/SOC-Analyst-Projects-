@@ -19,7 +19,7 @@ Suspicious encoded PowerShell executed on the endpoint, followed by DNS queries 
 
 ## Full Report
 See the detailed SOC-style report with timeline, indicators, ATT&CK mapping, and containment recommendations:  
-[Step 5 — Draft Report](./notes.md)  <!-- or create report.md and link that instead -->
+[Report](./report.md)  <!-- or create report.md and link that instead -->
 
 ## Screenshots
 Screenshots of key Sysmon events are available in the [`screenshots/`](./screenshots) folder.
