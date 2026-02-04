@@ -1,4 +1,4 @@
-# Endpoint Detection & Threat Containment (SOC Lab 02)
+# Endpoint Compromise Detection & Threat Containment (SOC Lab 02)
 
 ## Objective
 Simulate an endpoint security alert on a Windows 10 finance workstation and investigate suspicious PowerShell activity using Sysmon in an environment without EDR or SIEM.
