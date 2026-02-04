@@ -24,7 +24,7 @@ DNS query preceding external connection (Sysmon Event ID 22).
 
 File creation activity following PowerShell execution (Sysmon Event ID 11).
 
-These indicators were observed and assessed in context, but no clearly malicious verdict was supported by the available evidence (destination IP belongs to a common Cloudflare-backed service rather than a known threat infrastructure).[web:37][web:38][web:69][web:73]
+These indicators were observed and assessed in context, but no clearly malicious verdict was supported by the available evidence (destination IP belongs to a common Cloudflare-backed service rather than a known threat infrastructure)
 
 ## MITRE ATT&CK mapping
 
