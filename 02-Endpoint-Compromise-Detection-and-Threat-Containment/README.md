@@ -27,18 +27,18 @@ Screenshots of key Sysmon events are available in the [`screenshots/`](./screens
 ## Observed Event IDs
 
 **Sysmon Event ID 1 – Process Creation**  
-![Event ID 1](02-Endpoint-Compromise-Detection-and-Threat-Containment/screenshots/Screenshot%202026-02-03%20204800.png)
+![Event ID 1](./screenshots/Screenshot%202026-02-03%20204800.png)
 
 **Sysmon Event ID 11 – File Create**  
-![Event ID 11](02-Endpoint-Compromise-Detection-and-Threat-Containment/screenshots/Screenshot%202026-02-03%20213933.png)
+![Event ID 11](./screenshots/Screenshot%202026-02-03%20213933.png)
 
 **Sysmon Event ID 11 – File Create**  
-![Event ID 11](02-Endpoint-Compromise-Detection-and-Threat-Containment/screenshots/Screenshot%202026-02-03%20213954.png)
+![Event ID 11](./screenshots/Screenshot%202026-02-03%20213954.png)
 
 **Sysmon Event ID 3 – Network Connection**  
-![Event ID 3](02-Endpoint-Compromise-Detection-and-Threat-Containment/screenshots/Screenshot%202026-02-03%20213837.png)
+![Event ID 3](./screenshots/Screenshot%202026-02-03%20213837.png)
 
 **Sysmon Event ID 22 – DNS Query**  
-![Event ID 22](02-Endpoint-Compromise-Detection-and-Threat-Containment/screenshots/Screenshot%202026-02-03%20213825.png)
+![Event ID 22](./screenshots/Screenshot%202026-02-03%20213825.png)
 
 
