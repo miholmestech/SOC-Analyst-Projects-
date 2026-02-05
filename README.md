@@ -1,6 +1,6 @@
 # 📂 SOC Analyst Projects
 
-Hands-on projects showing **endpoint detection**, **threat investigation**, and **SOC workflows** using Wazuh, Sysmon, and MITRE ATT&CK mapping.
+Hands-on projects showing **endpoint detection**, **threat investigation**, and **SOC workflows** using  Sysmon, and MITRE ATT&CK mapping.
 
 ---
 
