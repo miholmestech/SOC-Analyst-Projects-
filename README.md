@@ -23,4 +23,3 @@ Investigation report + MITRE analysis + Sysmon alert
 [GitHub](https://github.com/miholmestech) | [LinkedIn](https://www.linkedin.com/in/michelle-holmes-252441291/)
 
 ---
-**#BlueTeam #SOCAnalyst #Cybersecurity** – Built to land SOC roles 🚀
