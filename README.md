@@ -16,7 +16,7 @@ Investigation report + MITRE analysis + Sysmon alert
 
 ---
 
-## 👩‍💻 Author
+## 👩🏿‍💻 Author
 
 **Michelle Holmes**  
 *SOC Analyst | Blue Team Focus*  
