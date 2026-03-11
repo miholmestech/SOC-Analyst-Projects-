@@ -25,6 +25,8 @@ This system will later be used as a **target endpoint for detection and investig
 3. Attach the official **Windows 10 ISO**.
 4. Start the VM and complete installation.
 
+![image](https://github.com/miholmestech/SOC-Analyst-Projects-/blob/main/01-Windows-VM-Setup-and-Baseline/screenshots/01-windows-setup.png)
+
 ### Windows Setup Choices
 
 During the Windows setup process:
@@ -61,6 +63,9 @@ Y
 ```
 
 This allows locally created scripts and signed scripts to run.
+
+
+![image](https://github.com/miholmestech/SOC-Analyst-Projects-/blob/main/01-Windows-VM-Setup-and-Baseline/screenshots/03-windows-setup.png)
 
 ---
 
@@ -105,6 +110,10 @@ Display scaling was restored using:
 ```
 Right Ctrl + F (twice)
 ```
+It took a while to take effectduring loading, but the scaling issues were resolved.
+
+
+![image](https://github.com/miholmestech/SOC-Analyst-Projects-/blob/main/01-Windows-VM-Setup-and-Baseline/screenshots/04-windows-setup.png)
 
 ---
 
@@ -134,6 +143,9 @@ Required files:
 - `Sysmon64.exe` (downloaded from Microsoft Sysinternals)
 - `sysmonconfig.xml` (SwiftOnSecurity configuration)
 
+
+![image](https://github.com/miholmestech/SOC-Analyst-Projects-/blob/main/01-Windows-VM-Setup-and-Baseline/screenshots/sysmon-install%20.png)
+
 ---
 
 # 5. Install Sysmon Service
@@ -155,6 +167,8 @@ SysmonDrv started.
 Starting Sysmon64.
 Sysmon64 started.
 ```
+
+![image](https://github.com/miholmestech/SOC-Analyst-Projects-/blob/main/01-Windows-VM-Setup-and-Baseline/screenshots/sysmon-install-2.png)
 
 ---
 
@@ -208,3 +222,5 @@ Applications and Services Logs
 # 8. Outcome
 
 Despite the `sc query sysmon64` command not returning a response, verification through **Event Viewer** confirmed that Sysmon was successfully generating endpoint telemetry. Event ID 1 (Process Create) events were observed in the Sysmon Operational log, indicating that the Sysmon service was installed and functioning correctly. This confirmed that the Windows endpoint was producing security-relevant telemetry even without the use of a SIEM or EDR platform.
+
+
