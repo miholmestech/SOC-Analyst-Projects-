@@ -219,8 +219,12 @@ Applications and Services Logs
 
 ---
 
-# 8. Outcome
+# 8. Validation
 
-Despite the `sc query sysmon64` command not returning a response, verification through **Event Viewer** confirmed that Sysmon was successfully generating endpoint telemetry. Event ID 1 (Process Create) events were observed in the Sysmon Operational log, indicating that the Sysmon service was installed and functioning correctly. This confirmed that the Windows endpoint was producing security-relevant telemetry even without the use of a SIEM or EDR platform.
+Although the `sc query sysmon64` command did not return a response, verification through **Event Viewer** confirmed that Sysmon was successfully generating endpoint telemetry. Event ID 1 (Process Create) events were observed in the Sysmon Operational log, confirming that Sysmon was installed and functioning correctly.
+
+This validation confirmed that the Windows endpoint was successfully configured to generate security-relevant telemetry for future detection and investigation exercises.
+
+
 
 
