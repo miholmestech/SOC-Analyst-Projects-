@@ -42,7 +42,7 @@ The following screenshots document the email header analysis performed using Phi
 
 ### Email Metadata
 
-![Email Metadata](images/01-phishtool.png)
+![Email Metadata](03-email-phishing-triage-lab/screenshots/01-phishtool.png)
 
 This view shows the core email metadata including the sender address, display name, reply-to address, and message identifier.
 
@@ -53,7 +53,7 @@ Notable finding:
 
 ### Email Transmission Path
 
-![Transmission Path](images/02-phishtool.png)
+![Transmission Path](03-email-phishing-triage-lab/screenshots/02-phishtool.png)
 
 This view shows the email routing path through multiple mail servers before reaching the recipient.
 
@@ -64,7 +64,7 @@ Key observation:
 
 ### Email Routing Hops
 
-![Routing Hops](images/03-phishtool.png)
+![Routing Hops](03-email-phishing-triage-lab/screenshots/03-phishtool.png)
 
 The hop sequence shows the message traveling through multiple Microsoft mail protection systems before reaching the recipient mailbox.
 
@@ -74,7 +74,7 @@ This indicates the email was processed by **Microsoft's spam filtering infrastru
 
 ### Authentication Results
 
-![Authentication Results](images/05-phishtool.png)
+![Authentication Results](03-email-phishing-triage-lab/screenshots/05-phishtool.png)
 
 Authentication analysis shows:
 
@@ -88,7 +88,7 @@ These missing authentication mechanisms prevent verification of the sender's leg
 
 ### Microsoft Spam Filtering Evidence
 
-![Spam Confidence Level](images/06-phishtool.SCL.png)
+![Spam Confidence Level](03-email-phishing-triage-lab/screenshots/06-phishtool.SCL.png)
 
 The raw headers reveal:
 X-MS-Exchange-Organization-SCL: 5
