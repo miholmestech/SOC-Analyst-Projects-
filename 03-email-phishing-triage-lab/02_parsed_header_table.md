@@ -2,7 +2,9 @@
 The email headers were analyzed to identify sender infrastructure, authentication mechanisms, and potential anomalies. Header data was parsed using PhishTool to evaluate SPF/DKIM authentication results, originating IP information, and routing behavior.
 
 The full email header used for this investigation is preserved in the
+
 [email-sample.md](https://github.com/miholmestech/SOC-Analyst-Projects-/blob/main/03-email-phishing-triage-lab/01_email_sample.eml) file for reference and evidence integrity.
+
 
 | Header Field | Value | Analyst Notes |
 |---|---|---|
