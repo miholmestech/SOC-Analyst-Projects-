@@ -7,10 +7,12 @@ Hands-on projects showing **endpoint detection**, **threat investigation**, and 
 | Folder | Contents |
 |--------|----------|
 | [01-Windows-VM-Setup-and-Baseline](./01-Windows-VM-Setup-and-Baseline/) | Windows 10 baseline + Sysmon config, screenshots |
-| [02-Endpoint-Detection-and-Threat-Analysis](./02-Endpoint-Detection-and-Threat-Analysis/) | Investigation report + MITRE analysis + Sysmon alert |
+| [02-Endpoint-Compromise-Detection-and-Threat-Containment](./02-Endpoint-Compromise-Detection-and-Threat-Containment/) | Investigation report + MITRE analysis + Sysmon alert |
 | [03-email-phishing-triage-lab](./03-email-phishing-triage-lab/) | Screenshots, `.eml` sample, analysis report, parsed headers, IOCs, detection rule, user brief |
 
 **Each folder** = complete project with docs, screenshots, and writeups.
+
+---
 
 ## 👩🏿‍💻 Author
 
