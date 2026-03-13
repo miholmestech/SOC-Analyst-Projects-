@@ -1,6 +1,6 @@
 # 📂 SOC Analyst Projects
 
-Hands-on projects showing **endpoint detection**, **threat investigation**, and **SOC workflows** using Sysmon and MITRE ATT&CK mapping.
+Hands-on projects demonstrating endpoint detection, phishing investigation, and SOC analyst workflows using Sysmon and MITRE ATT&CK mapping.
 
 ## 📁 What's Inside
 
