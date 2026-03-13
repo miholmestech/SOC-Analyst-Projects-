@@ -24,6 +24,8 @@ Upon reviewing the email headers, Microsoft Exchange filtering assigned the mess
 
 Although the originating IP address is not currently flagged as malicious by security vendors, the combination of **missing authentication controls, reply-to mismatch, an SCL score of 5, and social engineering language** indicates that the message is likely part of a phishing attempt.
 
+The email sample was also submitted to VirusTotal for additional analysis. No security vendors flagged the file as malicious and sandbox analysis did not identify malicious behavior. This result is consistent with reply-based phishing scams that rely on social engineering rather than malware delivery.
+
 **Conclusion:** Based on the observed indicators and header analysis, the email is assessed as a likely phishing message.
 
 ---
